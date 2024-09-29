@@ -10,8 +10,15 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
     </head>
+    <x-navbar/>
 <body>
-  <x-navbar/>
+  fafasfafsafasf
+
 </body>
+
+
+<x-footer/>
+
+
 </html>
 </div>
