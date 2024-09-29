@@ -5,3 +5,37 @@ $body-bg: #f8fafc;
 $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
+
+.navbar{
+    background-color: #3F72AF;
+    width: 100%;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.LOGO{
+    height: 50px;
+    margin-left: 10px;
+}
+.Buttons{
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+    align-items: center;
+    gap: 20px;
+}
+
+.ProfIMG{
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.Profile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-right: 20px;
+
+}
