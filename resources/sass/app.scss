@@ -6,19 +6,57 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
-$utilities: (
-  "h": (
-    property: height,
-    class: h,
-    values: (
-      10: 10px,
-      20: 20px,
-      30: 30px,
-      40: 40px,
-      50: 50px,
-    )
-  )
-);
+// $utilities: (
+//   "h": (
+//     property: height,
+//     class: h,
+//     values: (
+//       10: 10px,
+//       20: 20px,
+//       30: 30px,
+//       40: 40px,
+//       50: 50px,
+//       BG: 600px
+//     )
+//   ),
+// "w": (
+//   property: width,
+//   class:w,
+//   values:(
+//     BG: 600px
+//   )
+// )
+
+// );
+@font-face {
+  font-family: 'Sweet Sans';
+  src: url('/resources/font/SweetSansProBold.otf') format('otf'),
+       url('/resources/font/SweetSansProRegular.otf') format('otf'),
+       url('/resources/font/SweetSansProMedium.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Now, override Bootstrap's body font globally
+body {
+  font-family: 'Sweet Sans', sans-serif; /* Fallback to sans-serif */
+}
+
+.nav-link{
+  font-family: 'Sweet Sans', sans-serif; /* Fallback to sans-serif */
+
+  color: white;
+  font-weight: 200px;
+  font-size: 15px
+  
+}
+.nav-link:hover{
+  background-color: #112D4E;
+  // padding: 0.3px;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: white;
+}
 
 // Generate the utilities
 @import 'bootstrap/scss/utilities';
