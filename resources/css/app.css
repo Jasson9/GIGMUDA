@@ -1,0 +1,15 @@
+.navbar{
+    background-color: #3F72AF;
+    width: 100%;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar{
+    background-color: #3F72AF;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
