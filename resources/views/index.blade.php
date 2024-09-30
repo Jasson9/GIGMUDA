@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('layouts.app')
+@section('title')
     <title>Home</title>
+@endsection
 
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-</head>
-    <!-- <x-navbar/> -->
+@section('content')
 <body>
-  <x-navbar_guest/>
   <div>
     <div class="HomeFreelancer flex-wrap" >
       <div class="Heading">
@@ -25,10 +19,6 @@
       </div>
     </div>
   </div>
-  fafasfafsafasf
 
 </body>
-
-
-<x-footer/>
-</html>
+@endsection
