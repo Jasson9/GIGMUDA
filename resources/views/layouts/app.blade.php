@@ -55,14 +55,14 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main>
             @yield('content')
         </main>
         <footer class="Footer">
             <div>
                 <img src="{{ Vite::asset('resources/Images/SOSMED.png') }}" alt="" class="SosMedIMG">
             </div>
-            <div class="Copyright">Copyright © 2024 GIGMUDA, All Rights Reserved.</div>
+            <div class="text-white Copyright">Copyright © 2024 GIGMUDA, All Rights Reserved.</div>
         </footer>
     </div>
 </body>
