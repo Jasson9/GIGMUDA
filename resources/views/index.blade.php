@@ -1,4 +1,3 @@
-<div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,25 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
- 
+
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-
-
-
-    </head>
+</head>
     <!-- <x-navbar/> -->
-     <x-navbar_guest/>
 <body>
+  <x-navbar_guest/>
   <div>
+
     <div class="HomeFreelancer flex-wrap" > 
       <div class="Heading text-center">
+
       Your Career Starts Here
       </div>
       <div class="SubHeading text-center">
       Explore Freelancers
       </div>
       <div  class="d-flex justify-content-center align-items-center ">
-      
+
         <button class="RegisterButton">Daftar Sekarang</button>
       </div>
     </div>
@@ -95,7 +93,4 @@
 <x-footer/>
 
 
-
-
 </html>
-</div>
