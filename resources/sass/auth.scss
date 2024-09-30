@@ -21,7 +21,7 @@ main{
     height: 100vh;
     z-index: 100;
     background: rgb(162,115,221);
-    background: linear-gradient(225deg, rgba(162,115,221,0.15) 0%, rgba(236,114,231,0.2) 100%);
+    background: linear-gradient(225deg, rgba(163, 115, 221, 0.116) 0%, rgba(236, 114, 232, 0.137) 100%);
     position: fixed;
     pointer-events: none;
 }
@@ -50,6 +50,7 @@ main{
 .auth-header{
     font-size: 48px;
     // font-weight: 500;
+    text-align: center;
     padding: 60px 0px;
 }
 

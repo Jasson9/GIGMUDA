@@ -42,13 +42,24 @@ body {
   font-family: 'Sweet Sans', sans-serif; /* Fallback to sans-serif */
 }
 
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .nav-link{
   font-family: 'Sweet Sans', sans-serif; /* Fallback to sans-serif */
 
   color: white;
   font-weight: 200px;
   font-size: 15px
-  
+
 }
 .nav-link:hover{
   background-color: #112D4E;
