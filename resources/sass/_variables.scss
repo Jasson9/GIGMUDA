@@ -55,7 +55,7 @@ body{
 }
 .Footer{
     bottom: 0px;
-position: fixed;
+position: sticky;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 15px;
@@ -83,12 +83,14 @@ position: fixed;
 .Heading{
 font-size: 60px;
 font-weight: bold;
-text-align: center;
+
 max-height: 80px;
+text-shadow: 0px 5px hsla(0, 0%, 0%, 0.75);
 }
 .SubHeading{
     font-size: 30px;
-    text-align: center;
+ 
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.745);
 
 }
 .RegisterButton{
@@ -108,4 +110,47 @@ max-height: 80px;
     background-color: rgb(0, 19, 51);
 
     transition: 0.5s;
+}
+
+.valign{
+    vertical-align: middle;
+    display: flex;
+ 
+}
+
+.w-15{
+width: 14%;
+}
+
+.h-15{
+    height: 27px;
+}
+
+.h500{
+    height: 500px;
+}
+
+.Freelancer{
+    width: 240px;
+    height: 300px;
+    background-color: #0088FF;
+    border-radius: 15px;
+    position: relative;
+}
+
+.FreelancerText{
+    background-color: white;
+   color: black;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding-top: 5px;
+      padding-bottom: 5px;
+}
+
+.FreelancerImage{
+    height: 280px;
+  
 }
