@@ -78,8 +78,9 @@
             <div id="home-section-4" class="w-full d-flex valign flex-column">
                 <h2>Popular Freelancers</h1>
 
-                <div class="freelancer-container">
+                <div class="freelancer-container flex-row d-flex gap-5">
                     <x-FreelancerCard />
+                    <x-FreelancerCard/>
                 </div>
 
                 <div class="mt-2">

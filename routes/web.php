@@ -5,6 +5,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('/freelancer', function () {
+    return view('FreelancerPage');
+});
 // Route::get('/footer', function () {
 //     return view('footer');
 // });
