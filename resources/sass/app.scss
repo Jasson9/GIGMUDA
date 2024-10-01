@@ -69,5 +69,14 @@ body {
   color: white;
 }
 
+.input-group{
+  width: 55%;
+  height: 5%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.559)
+}
+.form-control,.btn{
+
+  height: 50px;
+}
 // Generate the utilities
 @import 'bootstrap/scss/utilities';
