@@ -16,8 +16,8 @@
     </div>
     </div>
 
-    <div class="CategoryText">
-        <div class="w-50 d-flex items-center">
+    <div class="CategoryText ">
+        <div class="w-50 d-flex items-center text-center shadow-none">
         Front End Developer
         </div>
        

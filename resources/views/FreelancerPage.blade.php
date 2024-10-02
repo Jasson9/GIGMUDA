@@ -12,10 +12,10 @@
 <body>
     <div>
         <div class="FR-section bg-primary">
-    <div class="Heading text-center">
+    <div class="HeadingFreelancer text-center">
     Execute Your Vision, With Us.
     </div>
-    <div class="SubHeading text-center">
+    <div class="SubheadingFR text-center">
     Search For A Service You Need Now!
     </div>
     
@@ -28,17 +28,31 @@
         </div>
 
         <div class="FR-section">
-           <div class="Heading text-black">
+           <div class="HeadingCategory text-black mb-5">
             Categories
            </div>
 
            <div class="d-flex flex-row gap-1">
-<x-category-card/>
-<x-category-card/>
-<x-category-card/>
-<x-category-card/>
-<x-category-card/>
+            <x-category-card/>
+            <x-category-card/>
+            <x-category-card/>
+            <x-category-card/>
+            <x-category-card/>
            </div>
+        </div>
+
+        <div class="FR-section">
+        <div class="HeadingFreelancer">
+            Popular Freelancers
+        </div>
+        <div class="freelancer-container flex-row d-flex mt-3 gap-5">
+                    <x-FreelancerCard />
+                    <x-FreelancerCard/>
+                </div>
+
+                <div class="mt-5">
+                    <button class="RegisterButton text-white">See More</button>
+                </div>
         </div>
     </div>
 </body>
