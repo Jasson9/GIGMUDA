@@ -11,7 +11,7 @@
 @section('content')
 <body>
     <div>
-        <div class="FR-section-1">
+        <div class="FR-section bg-primary">
     <div class="Heading text-center">
     Execute Your Vision, With Us.
     </div>
@@ -25,6 +25,20 @@
     <button class="btn btn-light" type="button"><img src={{ Vite::asset('resources/Images/search.png') }} alt="" class="w-100 h-100"></button>
   
 </div>
+        </div>
+
+        <div class="FR-section">
+           <div class="Heading text-black">
+            Categories
+           </div>
+
+           <div class="d-flex flex-row gap-1">
+<x-category-card/>
+<x-category-card/>
+<x-category-card/>
+<x-category-card/>
+<x-category-card/>
+           </div>
         </div>
     </div>
 </body>
